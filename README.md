@@ -1,2 +1,2 @@
-# FilipeNeto.github.io
+# FMarnix.github.io
 This is my personal website with my portfolio
