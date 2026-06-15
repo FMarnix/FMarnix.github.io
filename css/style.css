@@ -374,6 +374,41 @@ header {
     }
 }
 
+.blog {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+@media (min-width: 600px) {
+    .blog {
+        display: grid;
+        grid-template-columns: 1fr 200px;
+        grid-column-gap: 2em;
+        grid-template-areas: 
+            "title img";
+    }
+
+    .section__title--blog {
+        grid-area: title;
+    }
+
+    #blog__body {
+        grid-row: 2;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    a:link {
+        color: #057786;
+    }
+
+    a:hoover {
+        color: green;
+    }
+}
+
 .my-work {
     background-color: var(--clr-dark);
     color: var(--clr-light);
